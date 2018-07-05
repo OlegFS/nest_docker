@@ -7,5 +7,4 @@ Build: docker build . -t u_nest:v2
 
 Run:
 docker run -d --user nest  -p 6087:8888 \
- -v ~ovinogradov/Documents:/home/nest/data \
  u_nest jupyter lab --allow-root --ip=0.0.0.0
